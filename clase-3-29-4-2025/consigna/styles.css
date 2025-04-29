@@ -1,0 +1,58 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  background-color: powderblue;
+}
+
+header {
+  background-color: cadetblue;
+}
+
+h1 {
+  color: beige;
+  font-family: monospace;
+}
+
+li {
+  display: inline;
+  margin: 20px;
+}
+
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: yellowgreen;
+}
+
+#inicio {
+  background-color: tomato;
+}
+
+#acerca {
+  background-color: violet;
+}
+
+#servicios {
+  background-color: thistle;
+}
+
+#contacto {
+  background-color: azure;
+}
+
+/* selector especifico */
+/* el h2 que esta dentro de la sección que tiene el id inicio */
+#inicio h2 {
+  color: blue;
+  font-size: 30px;
+}
+
+/* CONTINUAR ESTILANDO EL RESTO DE LOS H2 */
+
+/* seudoclases */
+/* hover: encima -> aplica estilos css solo cuando el mouse esta encima del elemento */
+a:hover {
+  color: red;
+}
