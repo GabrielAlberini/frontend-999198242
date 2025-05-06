@@ -56,3 +56,20 @@ section {
 a:hover {
   color: red;
 }
+
+/* Selector multiple */
+input,
+textarea {
+  border-radius: 10px;
+  padding: 10px;
+  display: block;
+}
+
+form button {
+  background-color: tomato;
+  color: brown;
+}
+
+footer {
+  text-align: center;
+}
