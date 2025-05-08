@@ -19,3 +19,19 @@
 - Agregar un título `<h1>` y un párrafo en el HTML.
 - Hacer `git add` y luego commit:  
   `"Agrego título y párrafo al index.html"`.
+
+
+## 🌐 Subir el repositorio a un repositorio remoto
+
+### Crear el repositorio en GitHub
+1. Ingresar a [github.com](https://github.com) y crear un nuevo repositorio vacío (sin README, .gitignore ni licencia).
+2. Copiar la URL del repositorio (por ejemplo: `https://github.com/tuusuario/mi-sitio.git`).
+
+### Conectar y subir desde local
+3. En la terminal, dentro de la carpeta `mi-sitio`, ejecutar:
+   ```bash
+   git remote add origin https://github.com/tuusuario/mi-sitio.git
+   git push
+   ```
+
+> ✅ ¡Listo! Ahora tu proyecto está también en GitHub.
