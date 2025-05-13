@@ -1,0 +1,17 @@
+h1,
+p {
+  font-family: "Montserrat", monospace;
+  color: rgb(124, 124, 124);
+  background-color: whitesmoke;
+  border: 2px solid grey;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+p {
+  font-weight: bold;
+  font-style: italic;
+  line-height: 1.5;
+  letter-spacing: 1;
+}
