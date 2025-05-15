@@ -1,0 +1,44 @@
+* {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+  background-color: blueviolet;
+}
+
+.contenedor {
+  background-color: yellowgreen;
+  padding: 20px;
+}
+
+.contenedor p {
+  background-color: violet;
+  padding: 20px;
+  margin: 20px;
+}
+
+.links {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: tomato;
+}
+
+.links a {
+  color: black;
+  font-size: 30px;
+  background-color: thistle;
+  display: block;
+  margin-top: 20px;
+}
+
+footer ul li {
+  display: inline;
+  margin: 10px;
+  padding: 10px;
+  background-color: yellowgreen;
+}
+
+.contenedor span {
+  color: white;
+  text-decoration: underline;
+}

@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.cart {
+  background-color: azure;
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 5px 4px 17px -6px rgba(0, 0, 0, 0.75);
+}
+
+.cart img {
+  width: 100%;
+}
+
+.banner {
+  border-radius: 20px 20px 0 0;
+}
+
+.cart-content {
+  padding: 30px;
+}
+
+.cart-content h2,
+.cart-content p {
+  text-align: center;
+}
+
+.cart-content h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.cart-content p {
+  color: rgb(148, 148, 148);
+}
+
+.cart-content-price {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: aliceblue;
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-content-price img {
+  width: 60px;
+}
+
+.cart-content-price a {
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  margin-bottom: 10px;
+  width: 100%;
+  padding: 10px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.btn-payment {
+  background-color: blue;
+  color: white;
+}
+
+.btn-cancel {
+  color: rgb(134, 134, 134);
+}
