@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cont-pelota {
+  background-color: yellowgreen;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pelota {
+  width: 50px;
+  height: 50px;
+  background-color: crimson;
+  position: absolute;
+  border-radius: 50%;
+  animation: jump 2s alternate infinite linear;
+}
+
+@keyframes jump {
+  from {
+    bottom: 0;
+
+  }
+
+  to {
+    bottom: 400px;
+  }
+}
+
+.banner {
+  height: 100vh;
+  background-color: yellowgreen;
+}
+
+.banner img {
+  position: absolute;
+  right: 30px;
+  bottom: 10px;
+  width: 40px;
+  animation: scroll 1s alternate infinite;
+}
+
+.bio {
+  padding: 20px;
+  text-align: center;
+}
+
+@keyframes scroll {
+  from {
+    bottom: 10px;
+  }
+
+  to {
+    bottom: 40px;
+  }
+}
