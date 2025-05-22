@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+  padding: 20px;
+  height: 300vh;
+}
+
+h1,
+p {
+  margin-bottom: 20px;
+}
+
+.seccion-verde {
+  background-color: yellowgreen;
+  height: 300px;
+
+}
+
+section .pelota {
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+  border-radius: 50%;
+  bottom: 20px;
+  right: 20px;
+}
+
+.position-relative {
+  height: 300px;
+  background-color: violet;
+  position: relative;
+}
+
+.pelota-absolute {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  top: 100px;
+  right: 100px;
+}
+
+.cont-name {
+  height: 300px;
+  background-color: yellowgreen;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont-relative-name {
+  /* position relative es definido en el contenedor donde ubico mediante coordenadas un elemento */
+  position: relative;
+  background-color: yellow;
+}
+
+.cont-name h2 {
+  font-size: 100px;
+}
+
+.dot {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  position: absolute;
+  top: 3px;
+  right: 65px;
+  border-radius: 50%;
+  animation: move-dot 0.5s alternate infinite;
+}
+
+@keyframes move-dot {
+  from {
+    transform: scale(1);
+  }
+
+  to {
+    transform: scale(1.2);
+  }
+}
+
+.cont-icon-whatsapp {
+  width: 80px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.cont-icon-whatsapp img {
+  width: 100%;
+}
