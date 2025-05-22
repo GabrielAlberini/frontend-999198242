@@ -4,8 +4,18 @@
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
+
+body {
+  /* grid-template-columns: repeat(3, 400px); */
+  /* cantidad de columnas y luego el ancho para cada una */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  padding: 40px;
+}
+
 .product {
-  width: 250px;
+  background-color: beige;
   padding: 20px;
   text-align: center;
   box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.123);
