@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+img {
+  width: 80px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  box-shadow: 10px 10px 5px 0px rgba(206, 205, 205, 0.75);
+  padding: 20px;
+  border-radius: 7px;
+  animation: animate-card 3s alternate forwards;
+}
+
+.card h3,
+.card p {
+  margin-bottom: 10px;
+}
+
+/* .card img {
+  float: right;
+} */
+
+.cont-img {
+  display: flex;
+  justify-content: end;
+}
+
+.cont-img img {
+  animation: animate-img 0.5s alternate infinite linear;
+}
+
+@keyframes animate-card {
+  from {
+    border-top: 5px solid white;
+  }
+
+  to {
+    border-top: 5px solid turquoise;
+  }
+}
+
+@keyframes animate-img {
+  from {
+    transform: scale(1) rotate(0deg);
+  }
+
+  to {
+    transform: scale(1.05) rotate(-10deg);
+    /* transform: rotate(-10deg); */
+  }
+}
