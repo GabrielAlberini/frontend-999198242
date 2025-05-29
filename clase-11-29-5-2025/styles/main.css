@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* #0F4C81 - azul petroleo */
+/* #FFC857 - amarillo suave */
+/* #2E2E2E - gris | tonos secundarios */
+
+
+/* Standars */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+
+p,
+a,
+li,
+form,
+button {
+  font-family: "Open Sans";
+}
+
+/* Header */
+
+header {
+  position: fixed;
+  width: 100%;
+  background-color: yellowgreen;
+}
+
+/* Hero section */
+
+.hero {
+  background-color: yellowgreen;
+  /*vh -> viewport heigth*/
+  height: 100vh;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../assets/images/hero.jpg");
+  background-size: cover;
+}
+
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 10px;
+  color: #97b1c8;
+}
+
+.hero h2 {
+  font-size: 25px;
+  margin-bottom: 10px;
+  color: #dab977;
+}
+
+.cta {
+  padding: 10px 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2E2E2E;
+  color: white;
+  border: 2px solid rgb(95, 95, 95);
+  box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
+  transition: scale 0.2s;
+  cursor: pointer;
+}
+
+.cta:hover {
+  scale: 1.1;
+}
+
+/* Services section */
+
+.services {
+  padding: 20px;
+}
+
+.services h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.benefits {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+.benefit {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 4px 6px 9px -3px rgba(0, 0, 0, 0.75);
+}
+
+.services h3 {
+  margin-bottom: 10px;
+}
+
+/* .user-profit h3 {
+  color: red;
+} */

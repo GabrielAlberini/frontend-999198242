@@ -1,0 +1,12 @@
+/* .cont-card {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.custom-title-card {
+  color: red;
+  text-decoration: underline;
+  font-size: 40px;
+}
