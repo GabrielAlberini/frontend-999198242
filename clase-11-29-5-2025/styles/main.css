@@ -107,6 +107,25 @@ header {
   margin-bottom: 10px;
 }
 
+/* How does it work */
+
+.como-funciona {
+  padding: 20px;
+  background-color: azure;
+}
+
+.como-funciona h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.como-funciona .card {
+  padding: 20px;
+  margin-bottom: 10px;
+  width: 50%;
+  margin: 10px auto;
+}
+
 /* .user-profit h3 {
   color: red;
 } */
