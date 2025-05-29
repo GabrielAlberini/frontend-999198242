@@ -110,3 +110,24 @@ header {
 /* .user-profit h3 {
   color: red;
 } */
+
+/* Responsive Design */
+/* Crear punto de quiebre hasta que el navegador tenga 480px como máximo */
+
+/* Media querie para tablet */
+@media (max-width: 880px) {}
+
+/* Media querie para celular */
+@media (max-width: 480px) {
+  .hero h2 {
+    font-size: 18px;
+  }
+
+  .benefits {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .services {
+    padding: 30px;
+  }
+}
