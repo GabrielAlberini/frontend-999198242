@@ -49,12 +49,16 @@
 
     <section id="contacto">
       <h2>Contacto</h2>
-      <form>
-        <label>Nombre:<br><input type="text" name="nombre"></label><br>
-        <label>Email:<br><input type="email" name="email"></label><br>
-        <label>Mensaje:<br><textarea name="mensaje"></textarea></label><br>
+      <form id="form">
+        <label>Nombre:<br><input id="name" type="text" name="nombre"></label><br>
+        <label>Email:<br><input id="email" type="email" name="email"></label><br>
+        <label>Mensaje:<br><textarea id="message" name="mensaje"></textarea></label><br>
         <button type="submit">Enviar</button>
       </form>
+    </section>
+    <section>
+      <!-- <p>Hola, soy Gabriel, mi correo es: gabrialberini@gmail.com y mi mensaje es: "mensaje"</p> -->
+      <p id="resultSubmit"></p>
     </section>
   </main>
 
@@ -63,6 +67,18 @@
     <p>Dirección: Av. Siempre Viva 123, Ciudad</p>
     <p>Teléfono: 11-1234-5678</p>
   </footer>
+
+
+  <script>
+    // Hola soy un comentario 
+    /* Este es otro comentario */
+
+    let name = "Gabriel";
+
+    // manera de mostrar el output al cliente
+    // console.log(name)
+  </script>
+  <script src="main.js"></script>
 </body>
 
 </html>
