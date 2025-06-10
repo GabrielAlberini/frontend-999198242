@@ -18,14 +18,24 @@ const mensaje = document.getElementById("mensaje")
 
 formulario.addEventListener("submit", function (evento) {
   evento.preventDefault()
+
   const edad = parseInt(input.value)
+
+  // isNaN = Esto no es un numero?
+  // texto = Verdadero
+  // numero = Falso
+  const edadFalsa = isNaN(edad)
 
   let text = ""
 
-  if (edad >= 18) {
+  if (edadFalsa === true) {
+    text = "Debes ingresar una edad valida."
+  } else if (edad >= 18) {
     text = "Puedes pasar :)"
   } else if (edad === 17) {
-    text = "Necesitas un permiso de tus padres"
+    text = "Necesitas un permiso de tus padres."
+  } else if (edad === 0) {
+    text = "Debes ingresar una edad."
   } else if (edad < 10) {
     text = "Tienes menos de 10 años, no hay forma de que ingreses"
   } else {
@@ -35,5 +45,5 @@ formulario.addEventListener("submit", function (evento) {
   mensaje.textContent = text
 
   // reasignación de datos
-  input.value = ""
+  input.value = 0
 })
