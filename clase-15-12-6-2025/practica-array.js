@@ -95,3 +95,5 @@ form.addEventListener("submit", (event) => {
     console.log("No es un correo valido")
   }
 })
+
+
