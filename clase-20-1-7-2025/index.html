@@ -9,7 +9,25 @@
 
 <body>
 
-  <script src="objetos.js"></script>
+  <style>
+    input {
+      display: block;
+      width: 50%;
+      margin-bottom: 10px;
+    }
+  </style>
+
+  <form>
+    <input type="text" id="name" placeholder="Ingrese el nombre del producto" autocomplete="off">
+    <input type="number" id="price" placeholder="Ingrese el precio del producto" autocomplete="off">
+    <input type="number" id="quantity" placeholder="Ingrese la cantidad deseada" autocomplete="off">
+    <button>Agregar al catálogo</button>
+  </form>
+
+  <!-- Lista de productos -->
+  <ul></ul>
+
+  <script src="ejercicio.js"></script>
 </body>
 
 </html>
