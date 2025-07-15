@@ -1,0 +1,9 @@
+.cont-colors {
+  display: flex;
+  gap: 20px;
+}
+
+.check-color {
+  width: 300px;
+  height: 300px;
+}

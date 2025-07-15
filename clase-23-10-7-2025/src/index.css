@@ -46,6 +46,14 @@ header nav a:hover {
   text-decoration: underline;
 }
 
+main {
+  min-height: 70vh;
+}
+
+.dashboard-content {
+  padding: 20px;
+}
+
 /* Banner */
 .banner {
   text-align: center;
